@@ -9,12 +9,7 @@ User Stories
 
 The user can:
 
-- add bookmarks to my bookmark list. Bookmarks contain:
-
-title
-url link
-description
-rating (1-5)
+- add bookmarks to my bookmark list. Bookmarks contain: title, url link, description, rating (1-5).
 
 - see a list of my bookmarks when I first open the app
 
