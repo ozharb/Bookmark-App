@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+## Bookmark App
 
-You can use the [editor on GitHub](https://github.com/ozharb/Bookmark-App/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+A simple app to save and filter your favorite websites by you rate them.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### LookBook!
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+User Stories
 
-```markdown
-Syntax highlighted code block
+The user can:
 
-# Header 1
-## Header 2
-### Header 3
+- add bookmarks to my bookmark list. Bookmarks contain:
 
-- Bulleted
-- List
+title
+url link
+description
+rating (1-5)
 
-1. Numbered
-2. List
+- see a list of my bookmarks when I first open the app
 
-**Bold** and _Italic_ and `Code` text
+- All bookmarks in the list default to a "condensed" view showing only title and rating
+I can click on a bookmark to display the "detailed" view
 
-[Link](url) and ![Image](src)
-```
+- Detailed view expands to additionally display description and a "Visit Site" link
+I can remove bookmarks from my bookmark list
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+- I receive appropriate feedback when I cannot submit a bookmark
 
-### Jekyll Themes
+- I can select from a dropdown (a <select> element) a "minimum rating" to filter the list by all bookmarks rated at or above the chosen selection
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ozharb/Bookmark-App/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
