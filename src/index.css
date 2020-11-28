@@ -1,0 +1,226 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  width: 85%;
+  margin: 0 auto;
+  font-size: 18px;
+}
+header {
+  margin: 5px;
+  text-align: center;
+}
+h1{
+  text-align: center;
+  font-size: 30x;
+  color: orangered;
+}
+footer {
+  margin-top:0;
+  text-align: center;
+  padding-bottom: 8px;
+}
+
+/*** boxes on main page where book marks appears***/
+.bookmark-box{
+
+display: flex;
+justify-content: space-between;
+}
+.rating-box>label{
+  display: inline-block;
+}
+.bookmark-item__expanded{
+  color: orangered;
+}
+
+#js-new-bookmark-form > input{ 
+ 
+  margin-bottom: 5px;
+}
+.new-bookmark-form{
+  display: flex;
+justify-content: center;
+}
+button, input[type="text"] {
+  padding: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+#bookmark-list-item {
+  width: 250px;
+}
+li{
+  margin: 5px;
+}
+.container {
+  width: 100%;
+  padding: 5px auto;
+  border: 1px solid gray;
+  border-radius: 3px;
+}
+
+.bookmark-list {
+  list-style: none;
+  padding-left: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+.bookmark-desc{
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: grey;
+}
+.bookmark-list > li {
+  margin: 0 30px 20px 30px;
+  
+  border: 1px solid grey;
+  padding: 20px;
+  border-radius: 3px;;
+}
+
+.bookmark-item {
+  display: block;
+  
+  font-style: italic;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+
+.error-container {
+  position: absolute;
+  color: palevioletred;
+  font-weight: bold;
+  border: 1px solid plum;
+  background-color: lightgray;
+}
+
+
+
+.error-container * {
+  display: inline-block;
+}
+
+#cancel-error {
+  margin-right: 0.5rem;
+}
+input:disabled{
+  background: none;
+  border:none;
+  width: 100%;
+}
+
+/***--links--****/
+a:link {
+  color: orangered;
+}
+a:visited{
+  color:grey;
+}
+a:hover {
+  color:gold;
+}
+a:active{
+  color: greenyellow;
+}
+/*****ratings stars have two options: hover to fill and a11y functionality*****/
+.txt-center {
+  text-align: center;
+}
+.hide {
+  display: none;
+}
+.starRadio{
+  margin: 3px;
+}
+.clear {
+  float: none;
+  clear: both;
+}
+
+.rating {
+   
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: center;
+    position: relative;
+}
+
+.rating > label {
+   
+    display: inline;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 1.5em;
+    cursor: pointer;
+    color: #000;
+}
+
+.rating > label:hover,
+.rating > label:hover ~ label,
+.rating > input.radio-btn:checked ~ label {
+    color: transparent;
+}
+
+.rating > label:hover:before,
+.rating > label:hover ~ label:before,
+.rating > input.radio-btn:checked ~ label:before,
+.rating > input.radio-btn:checked ~ label:before {
+    content: "\2605";
+    position: absolute;
+    left: 0;
+    color: #FFD700;
+}
+
+.rating > input.radio-btn:checked ~ label {
+    color: transparent;
+}
+
+.rating > label:focus:before,
+.rating > label:focus ~ label:before,
+.rating > input.radio-btn:checked ~ label:before,
+.rating > input.radio-btn:checked ~ label:before {
+    content: "\2605";
+    position: absolute;
+    left: 0;
+    color: #FFD700;
+}
+.starView {
+  
+  color: #FFD700 ;
+  
+}
+@media all and (min-width: 600px){
+  body {
+    font-size: 1em;
+  }
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+h2{
+  align-self: flex-start;
+}
+header > form {
+  align-self: flex-end;
+  justify-content: flex-end;
+}
+
+}
