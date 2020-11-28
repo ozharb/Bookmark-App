@@ -1,5 +1,7 @@
-## Shopping List Starter
+## Bookmark App
 
 #### Created for the Thinkful EI Program.
 
-Please reference the startup instructions within your curriculum.
+#### Requires npm install
+
+A simple app that saves bookmarks and saves them using an api
